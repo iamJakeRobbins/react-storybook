@@ -11,3 +11,4 @@ import Message from '../components/Message';
 storiesOf('Message', module)
   .add('Hello World', () => <Message text="Hello world" />)
   .add("What's the time?", () => <Message text={new Date().toString()} />)
+	.add('custom', () => <Message text = 'Baby steps now!' />)
