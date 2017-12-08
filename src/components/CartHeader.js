@@ -5,10 +5,10 @@ const CartHeader = () => {
   return (
 <header className="row">
   <nav>
-    <div class="container">
-      <div class="nav-wrapper">
-        <div class="col s12">
-          <a href="/" class="brand-logo">Shopping Cart</a>
+    <div className="container">
+      <div className="nav-wrapper">
+        <div className="col s12">
+          <a href="/" className="brand-logo">Shopping Cart</a>
         </div>
       </div>
     </div>
